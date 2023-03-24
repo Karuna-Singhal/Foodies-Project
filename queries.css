@@ -1,0 +1,383 @@
+/*##### 1266 ##### */
+@media (max-width: 79.125em) {
+  /* Hero-section */
+  .customer-image img {
+    margin-right: -1.8rem;
+  }
+}
+
+/* ####1206px######## */
+@media (max-width: 75.4em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* ####1159px######## */
+@media (max-width: 72.5em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* ####1082px######## */
+@media (max-width: 67.625em) {
+  /* Hero-section */
+  .customer-image img {
+    margin-right: -1.9rem;
+  }
+}
+/* ####1068px######## */
+@media (max-width: 66.75em) {
+  html {
+    font-size: 52%;
+  }
+}
+
+/* ####1013px######## */
+@media (max-width: 63.31em) {
+  html {
+    font-size: 50%;
+  }
+  .pricing-container {
+    margin: 9rem 8rem;
+  }
+}
+
+/* ####979px######## */
+@media (max-width: 61.18em) {
+  html {
+    font-size: 48%;
+  }
+
+  .meal-section-1 {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-meal {
+    grid-column: 1/-1;
+    margin: 0 26em;
+  }
+
+  .testimonial-section {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .testimonial-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-content p {
+    font-size: 1.8em;
+  }
+}
+
+/* ####940px######## */
+@media (max-width: 58.75em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ####885px######## */
+@media (max-width: 55.31em) {
+  html {
+    font-size: 40%;
+  }
+
+  .section-how-image-box::before {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section-how-image-box::after {
+    width: 180px;
+    height: 180px;
+  }
+  .cta-container {
+    height: 50em;
+  }
+}
+
+/* ####794px######## */
+@media (max-width: 49.625em) {
+  html {
+    font-size: 38%;
+  }
+
+  .secondary-heading,
+  .meal-secondary-heading,
+  .secondary-heading-testimonial,
+  .secondary-heading-pricing {
+    letter-spacing: 0.01em;
+  }
+
+  .testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+
+  .pricing-list-1::after {
+    top: 4%;
+    right: -12%;
+  }
+}
+
+/* ####758px######## */
+@media (max-width: 47.375em) {
+  html {
+    font-size: 34%;
+  }
+  .section-how-image-box::before {
+    width: 180px;
+    height: 180px;
+  }
+
+  .section-how-image-box::after {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* ####685px######## */
+@media (max-width: 42.8125em) {
+  html {
+    font-size: 32%;
+  }
+}
+
+/* ####649px######## */
+@media (max-width: 40.5625em) {
+  html {
+    font-size: 29%;
+  }
+
+  .main-nav a:link {
+    font-size: 1.6em;
+  }
+
+  .testimonial-text {
+    font-size: 1.4em;
+  }
+
+  .cta-container {
+    height: 55em;
+  }
+
+  .section-how-image-box::before {
+    width: 140px;
+    height: 140px;
+  }
+
+  .section-how-image-box::after {
+    width: 120px;
+    height: 120px;
+  }
+  .pricing-container {
+    margin: 9rem 6rem;
+  }
+}
+
+/* ####594px######## */
+@media (max-width: 37.125em) {
+  html {
+    font-size: 26%;
+  }
+}
+
+/* ####571px######## */
+@media (max-width: 35.6875em) {
+  .meal-section-1 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 18em;
+  }
+
+  .list-meal {
+    margin: 0;
+  }
+
+  .cta-description {
+    font-size: 2em;
+  }
+
+  .cta-form label {
+    font-size: 2.4em;
+  }
+
+  .secondary-heading,
+  .meal-secondary-heading,
+  .secondary-heading-testimonial,
+  .secondary-heading-pricing {
+    font-size: 5em;
+    letter-spacing: -0.05em;
+  }
+
+  .cta-container--1 {
+    padding-right: 4em;
+  }
+  .section-cta-secondary-heading {
+    font-size: 4.4em;
+  }
+  .cta-form-btn {
+    padding: 1.1em 0em;
+    font-size: 3em;
+    border-radius: 4.4em;
+  }
+  .cta-container {
+    grid-template-columns: 1fr;
+    height: 180em;
+  }
+
+  .cta-container--1 {
+    height: 0em;
+  }
+  .cta-img {
+    grid-row: 2/1;
+    background-size: cover;
+    background-position: center;
+    gap: 0;
+  }
+  .form-detail {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ####538px######## */
+@media (max-width: 33.625em) {
+  .primary-heading {
+    font-size: 4.4em;
+  }
+
+  .customer-image {
+    margin-top: 5.4em;
+  }
+}
+
+/* ####516px######## */
+@media (max-width: 32.25em) {
+  .Hero-section-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customer-image {
+    margin-top: 5.4em;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .customer-image p {
+    margin-left: 3em;
+    font-size: 2.4em;
+  }
+
+  .Hero-Section-food-image {
+    width: 80em;
+    height: 80em;
+  }
+  .pricing-container {
+    grid-template-columns: 1fr;
+    margin: 9rem 6rem;
+  }
+
+  .pricing-list-1::after {
+    top: 4%;
+    right: -10%;
+  }
+  .header-icons {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    font-size: 2.4em;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.4em;
+    font-weight: 800;
+  }
+
+  .header-nav .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .header-nav .close-icon {
+    display: block;
+  }
+
+  .header-nav .menu-icon {
+    display: none;
+  }
+  .section-cta {
+    padding: 12rem 10rem;
+  }
+  .cta-form-btn {
+    padding: 1.2rem 5.3rem;
+  }
+  .section-footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ####426px######## */
+@media (max-width: 26.625em) {
+  .meal-section-1 {
+    margin: 0 6em;
+  }
+  .testimonial {
+    grid-template-columns: 1fr;
+  }
+  .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* #########374px##### */
+@media (max-width: 23.375em) {
+  .Hero-Section-food-image {
+    width: 60em;
+    height: 60em;
+  }
+
+  .customer-image {
+    flex-direction: column;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.4rem;
+  }
+}
